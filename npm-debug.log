@@ -1,0 +1,115 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'angular@1.3.15' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose install initial load of /Users/user/GitHub/NodeTutorial/package.json
+5 verbose readDependencies loading dependencies from /Users/user/GitHub/NodeTutorial/package.json
+6 silly cache add args [ 'angular@1.3.15', null ]
+7 verbose cache add spec angular@1.3.15
+8 silly cache add parsed spec { raw: 'angular@1.3.15',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'angular',
+8 silly cache add   rawSpec: '1.3.15',
+8 silly cache add   spec: '1.3.15',
+8 silly cache add   type: 'version' }
+9 silly addNamed angular@1.3.15
+10 verbose addNamed "1.3.15" is a plain semver version for angular
+11 silly mapToRegistry name angular
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/angular
+15 verbose addNameVersion registry:https://registry.npmjs.org/angular not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/angular
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 22:27:32
+19 verbose request id c196b548b5aaa57e
+20 http request GET https://registry.npmjs.org/angular
+21 http 200 https://registry.npmjs.org/angular
+22 silly get cb [ 200,
+22 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly get     etag: '"2L9WV2XJL7GONT4NEGM1W7AF"',
+22 silly get     'content-type': 'application/json',
+22 silly get     'cache-control': 'max-age=60',
+22 silly get     'content-length': '93471',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     date: 'Fri, 05 Jun 2015 21:27:33 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     age: '0',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-lcy1122-LCY',
+22 silly get     'x-cache': 'MISS',
+22 silly get     'x-cache-hits': '0',
+22 silly get     'x-timer': 'S1433539652.433762,VS0,VE620',
+22 silly get     vary: 'Accept' } ]
+23 verbose get saving angular to /Users/user/.npm/registry.npmjs.org/angular/.cache.json
+24 silly mapToRegistry name angular
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry uri https://registry.npmjs.org/angular
+28 verbose addRemoteTarball https://registry.npmjs.org/angular/-/angular-1.3.15.tgz not in flight; adding
+29 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular/-/angular-1.3.15.tgz',
+29 verbose addRemoteTarball   '797d0947869073af96d92366fb0daf98a35d1cd1' ]
+30 info retry fetch attempt 1 at 22:27:33
+31 info attempt registry request try #1 at 22:27:33
+32 http fetch GET https://registry.npmjs.org/angular/-/angular-1.3.15.tgz
+33 http fetch 200 https://registry.npmjs.org/angular/-/angular-1.3.15.tgz
+34 silly fetchAndShaCheck shasum 797d0947869073af96d92366fb0daf98a35d1cd1
+35 verbose addTmpTarball /var/folders/yj/vfbt68w977ncwc0mnmjhkdgw0000gn/T/npm-702-8ba07b15/registry.npmjs.org/angular/-/angular-1.3.15.tgz not in flight; adding
+36 verbose addTmpTarball already have metadata; skipping unpack for angular@1.3.15
+37 silly cache afterAdd angular@1.3.15
+38 verbose afterAdd /Users/user/.npm/angular/1.3.15/package/package.json not in flight; writing
+39 verbose afterAdd /Users/user/.npm/angular/1.3.15/package/package.json written
+40 silly install resolved [ { name: 'angular',
+40 silly install resolved     version: '1.3.15',
+40 silly install resolved     description: 'HTML enhanced for web apps',
+40 silly install resolved     main: 'index.js',
+40 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+40 silly install resolved     repository:
+40 silly install resolved      { type: 'git',
+40 silly install resolved        url: 'https://github.com/angular/angular.js.git' },
+40 silly install resolved     keywords: [ 'angular', 'framework', 'browser', 'client-side' ],
+40 silly install resolved     author:
+40 silly install resolved      { name: 'Angular Core Team',
+40 silly install resolved        email: 'angular-core+npm@google.com' },
+40 silly install resolved     license: 'MIT',
+40 silly install resolved     bugs: { url: 'https://github.com/angular/angular.js/issues' },
+40 silly install resolved     homepage: 'http://angularjs.org',
+40 silly install resolved     gitHead: 'ba7abcfa409ba852146e6ba206693cf7bac3e359',
+40 silly install resolved     _id: 'angular@1.3.15',
+40 silly install resolved     _shasum: '797d0947869073af96d92366fb0daf98a35d1cd1',
+40 silly install resolved     _from: 'angular@1.3.15',
+40 silly install resolved     _npmVersion: '2.0.2',
+40 silly install resolved     _nodeVersion: '0.10.26',
+40 silly install resolved     _npmUser: { name: 'angularcore', email: 'angular-core+npm@google.com' },
+40 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+40 silly install resolved     dist:
+40 silly install resolved      { shasum: '797d0947869073af96d92366fb0daf98a35d1cd1',
+40 silly install resolved        tarball: 'http://registry.npmjs.org/angular/-/angular-1.3.15.tgz' },
+40 silly install resolved     directories: {},
+40 silly install resolved     _resolved: 'https://registry.npmjs.org/angular/-/angular-1.3.15.tgz' } ]
+41 info install angular@1.3.15 into /Users/user/GitHub/NodeTutorial
+42 info installOne angular@1.3.15
+43 verbose installOne of angular to /Users/user/GitHub/NodeTutorial not in flight; installing
+44 warn locking Error: EACCES, open '/Users/user/.npm/_locks/angular-7fa17ce878218e7a.lock'
+44 warn locking     at Error (native)
+44 warn locking  /Users/user/.npm/_locks/angular-7fa17ce878218e7a.lock failed { [Error: EACCES, open '/Users/user/.npm/_locks/angular-7fa17ce878218e7a.lock']
+44 warn locking   errno: -13,
+44 warn locking   code: 'EACCES',
+44 warn locking   path: '/Users/user/.npm/_locks/angular-7fa17ce878218e7a.lock' }
+45 verbose stack Error: Attempt to unlock /Users/user/GitHub/NodeTutorial/node_modules/angular, which hasn't been locked
+45 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+45 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:1017:5)
+45 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:1021:20
+45 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+45 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+45 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+45 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+46 verbose cwd /Users/user/GitHub/NodeTutorial
+47 error Darwin 14.0.0
+48 error argv "node" "/usr/local/bin/npm" "install" "angular@1.3.15"
+49 error node v0.12.4
+50 error npm  v2.10.1
+51 error Attempt to unlock /Users/user/GitHub/NodeTutorial/node_modules/angular, which hasn't been locked
+52 error If you need help, you may report this error at:
+52 error     <https://github.com/npm/npm/issues>
+53 verbose exit [ 1, true ]
